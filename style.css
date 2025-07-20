@@ -1,0 +1,30 @@
+.section1{
+    display: flex; /* Arrange articles side by side */
+    gap: 20px; /* Space between articles */
+    padding: 20px;
+    background-color: #e9ecef; /* Light gray background */
+}
+
+.my-div {
+    background-color: #320d05; /* Sets a specific color */
+    width: 200px; /* Defines width */
+    height: 100px; /* Defines height */
+    padding: 20px; /* Adds space inside the div */
+    color: white; /* Sets text color */
+    text-align: center; /* Centers text */
+}
+
+.article-left {
+    float: left; /* Positions the article to the left */
+    width: 50%; /* Takes half the width of the container */
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px;
+    border: 2px solid #007bff; /* Blue border */
+}
+.article-right {
+    float: right; /* Positions the article to the right */
+    width: 50%; /* Takes half the width of the container */
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px;
+    border: 2px solid #28a745; /* Green border */
+}
